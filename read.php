@@ -26,11 +26,11 @@ function read($dir){
  * "dir" is the folder that's content the json files
  * @var string
 */
-$dir = "json/";
+$dir = "jsonFiles/";
 /**
  * "data" is the json output of 'dir'
  * @var array
-*/
+ */
 $data = read($dir);
 
 if(!empty($data)){
